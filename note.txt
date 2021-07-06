@@ -1,0 +1,21 @@
+Selector 
+-------------------
+simple selector 
+- combinator selector 
+- pseudo - class selector 
+- pseudo - elements selector
+- attribute selector 
+
+
+css background 
+---------------------
+- background color
+- background image - url 
+- background repeat - repeat no-repeat repeat-x, repeat-y 
+- background attatchment - fixed, scroll 
+- background position - left-top-bottom-center, right-top-bottom-center,
+- background clip - padding-box, border-box[default], content-box 
+- background origin - padding-box[default], border-box[image start from border ], content-box [image start from content ]
+- background size - auto-cover-contain-px-% 
+- background :- color image position/size repeat origin clip attatchment
+- Opacity / Transparency

@@ -1,0 +1,48 @@
+h1 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+.bg-color {
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    background-image: url(https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__340.jpg);
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: top center;
+    opacity: 0.9;
+    border: 10px dotted green;
+}
+
+.origin {
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    border: 10px dotted green;
+    color: white;
+    padding: 10px;
+    background-image: url(https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__340.jpg);
+    background-size: 100px;
+    background-repeat: no-repeat;
+}
+
+.clip {
+    height: 300px;
+    width: 300px;
+    /* background-color: blue; */
+    border: 10px dotted green;
+    color: white;
+    padding: 10px;
+    background-image: url(https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__340.jpg);
+    background-size: 100px;
+    color: black;
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+}
