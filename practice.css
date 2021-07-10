@@ -1,0 +1,158 @@
+body {
+    background-color: whitesmoke;
+    font-size: 20px;
+    font-family: 'Lucida Console';
+    line-height: 25px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 900px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    background-color: olivedrab;
+    padding: 100px;
+}
+
+/* z-index */
+
+.red {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    position: absolute;
+}
+.blue {
+    background-color: blue;
+    height: 200px;
+    width: 190px;
+    margin: 10px;
+    position: absolute;
+}
+.green {
+    background-color: green;
+    height: 200px;
+    width: 180px;
+    margin: 10px;
+    position: absolute;
+}
+
+
+
+/* position  */
+.width {
+    height: 200px;
+    width: 200px;
+}
+.one
+{ 
+    background-color: red;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+.two { background-color: green;}
+.three { background-color: blue;}
+
+
+
+h1 {
+    color: blue;
+    text-decoration: underline;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.outline {
+    height: 200px;
+    width: 500px;
+    margin-left: 100px;
+    background-color: green;
+    border: 10px solid red;
+    padding: 10px;
+    outline: 10px ridge blue;
+    outline-offset: 10px;
+}
+
+/* text  */
+/* verticalalignment - baseline,bottom,top,text-top,super,sub*/
+.vertical {
+    vertical-align: baseline;
+    vertical-align: bottom;
+}
+
+
+/* font-family */
+.font-family {
+    font: 120px; /* fails */
+}
+
+/* list style type */
+ul {
+    background-color: green;
+    padding: 20px;
+    color: white;
+    border-left: 10px solid black;
+    list-style-type :  circle;
+    list-style-position: inside;
+    list-style-image: url(1.gif);
+}
+ul li {
+    background-color: blue;
+    margin: 5px;
+    padding: 10px;
+}
+
+
+/* table  */
+#customers {
+    font-family: arial;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+#customers td, th {
+    border: 1px solid red;
+    padding: 10px;
+}
+#customers tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+#customers tr:nth-child(odd){
+    background-color: #3f3f3f;
+}
+#customers tr:hover {background-color: #ddd;}
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+/* vertical align in table  */
+#customers td, th {
+    height: 100px;
+    vertical-align: top;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

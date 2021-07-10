@@ -1,3 +1,180 @@
+Blog or webstie link 
+-----------------------------
+>>> color website 
+= flatuicolors 
+= 
+
+
+What I learn
+========================
+>> comments 
+>> colors 
+>> background
+>> borders 
+>> margin
+>> padding 
+>> height and width  - parent heith = child height 
+>> box model 
+>> outline 
+
+>> text - 
+- alignment - left-right-center
+- vertical alignment -baseline[default] text-top,text-bottom,sub,super
+- text decoration - none,overline,linethrough,underline
+- text-transform : uppercase-lowercase-capitalize
+- text-spacing: text-indent, letter-spacing,line-height,word-spacing,white-space
+- text-shadow: 2px(horizontal) 3px(vertical) 4px(blur) red, 
+
+>> font 
+- font-family
+- font-style : italic, normal,oblique
+- font-size : px,em,rem,vw 
+- font-size/line-height
+- font-weight 
+- google font 
+- font pairings 
+- font-variant - normal, small-caps 
+- font-shorthand - font-style font-variant font-weight font-size/line-height font-family;
+- italic small-caps normal 13px/150% Arial, Helvetica, sans-serif
+body {
+  font: italic 20px Serif; /* works */
+  font: 20px; /* fails */
+  font: 18em Fantasy; /* works */
+  font: bold small-caps; /* fails */
+}
+
+
+>> icons - font awesome icon 
+- add fontawesome cdn link[1st link use ]: https://cdnjs.com/libraries/font-awesome
+- copy icon code : <i class="far fa-address-book"></i>
+- link free icon _ https://fontawesome.com/v5.15/icons?d=gallery&p=2&m=free
+- use latest version 5 or old version 4.7 with cdn 
+- 4.7 all icon is free: https://fontawesome.com/v4.7/icons/
+- use bootstrap icon : https://icons.getbootstrap.com/#install
+- copy cdn : bootstrap icon - install - cdn 
+- 
+
+
+>> link 
+- a:link 
+- a:visited 
+- a:hover 
+- a:active 
+- use cursor 
+
+
+>> list 
+- list-style-type : circle, square, upper-roman, lowr-alpha
+- list-style-image: url('sqpurple.gif');
+- list-style-position: outside;inside
+- list-style-type: none;
+- shorthand:   list-style: square inside url("sqpurple.gif");
+
+
+>> table 
+- border 
+- width 100% 
+- border-collapse 
+- table and th height and width 
+- text-align - left center right 
+- vertical align  - top, bottom,middle
+- padding - border bottom or top 
+- hover 
+- add odd / even hover 
+- 
+
+>>> disoplay - inline block and inlne block 
+
+>>> max width - all time use max width
+
+
+>>> position
+> static == kono position na dileo default vabe ai position thakbe, left right bottom top kaj korena ai position e 
+> Relative == left right top bottom kaj korbe , ai value dile relative div tar jayga theke sore jabe, kintu keo tar jaygay aste parbena, প্রধান শিক্ষক যদি তার চেয়ার থেকে সরে যায়, চেয়ার খালি থাকবে, কিন্তু কেউ ওই চেয়ারে বসতে পারবেনা। relative e px kaj kore, but top/bottom e % kaj korena, left/right e kaj kore. 
+relative dile je gap hoy, se gap onno kono element puron korena. 
+> absolute == kono div ke absoulute korle sei div tar position theke lose hoye jay, tokhon nicher div absolute div er place dokhol kore. nicer div upore thake, absolute div niche hariye jay. fole absolute div r dkeha jayna, take z-index diye show korte hoy. 
+> position:fixed == position:fixed, top:0;left:0;right:0;
+> position: sticky == position:sticky, top:0;
+
+>>> z-index: 1st div sobar niche thakebe, then 2nd div then 3rd div in top 
+- jar value besi se sobar top e thakbe 
+- use positive value(1-1000), negative value(-1)
+
+
+
+
+>> overflow
+>> float 
+>> inline-block 
+>> align 
+>> combinator
+>> pseudo class 
+>> pseudo elements
+>> Opacity
+>> navigation bar 
+>> dropdowns 
+>> image gallery 
+>> image sprites 
+>> attr selector 
+>> forms 
+>> counters 
+>> webstie layout 
+>> units 
+>> specificity 
+>> important 
+
+Advanced 
+====================
+>> round corner 
+>> border image 
+>> background
+>> colors 
+>> colors keyword 
+>> graident 
+>> shadow 
+>> text effects 
+>> web fonts 
+>> 2d and 3d transform 
+>> transition 
+>> animation 
+>> tooltip 
+>> style image 
+>> image reflection 
+>> object fit 
+>> object position
+>> buttons 
+>> pagination 
+>> multiple columns 
+>> user interface 
+>> variable 
+>> box sizing 
+>> media queries 
+>> flexbox 
+
+css responsive 
+======================
+>> RWD intro 
+>> viewport 
+>> grid view 
+>> media queries
+>> images 
+>> videos 
+>> frameworks 
+>> template 
+
+css grid 
+===================
+>> intro 
+>> grid container 
+>> grid item 
+
+css sass
+===================
+>> sass tutorial 
+
+
+
+
 Selector 
 -------------------
 simple selector 
@@ -19,3 +196,103 @@ css background
 - background size - auto-cover-contain-px-% 
 - background :- color image position/size repeat origin clip attatchment
 - Opacity / Transparency
+
+Border 
+-----------------
+-> border style -- 
+- dotted 
+- dashed 
+- solid 
+- double 
+- groove 
+- ridge 
+- inset 
+- outset 
+- none 
+- hidden 
+-> border width -- px 
+-> border color  - color name 
+-> Individual Sides
+border-top-style: dotted;
+border-right-style: solid;
+border-bottom-style: dotted;
+border-left-style: solid;
+-> border-radius - px 
+
+margin
+----------------
+margin-top
+margin-right
+margin-bottom
+margin-left
+- auto - length[px,em,rem] - % 
+- 
+
+max width 
+--------------------
+- max width dile site responsive hobe
+
+
+float 
+------------------
+- firsrt div ke float dile , 2nd div first div er jayga, dokhol korbe, 
+ba 1st div upore baste thakbe, 2nd div niche chole jabe,  tokhon 2nd div ke float left dite hbe, 3rd div thakle,  takeo float left dite hobe,
+1st div {
+    float: left;
+}
+
+2nd div {
+    float: left;
+}
+
+3rd div {
+   float: left;
+}
+
+
+
+Box model
+-----------------------
+>> use % for width all time
+>> total width = width + left-right padding + left-rigth border + left right margin , but show in box model layout in spect total with show without margin, jehetu margin box e add hoyna, like = https://prnt.sc/195le8k
+>> use box sizing border box - its work only border and padding not margin 
+
+
+overflow hidden
+----------------------
+>> by default h1 er margin thake , take remove korte hole div ke overflow hidden dite hobe
+
+clear
+------------------
+>> use float
+>> use clear in parent div 
+ clearfix:after {
+    content:'';
+    display: block;
+    clear: both; 
+}
+>> if parent div have bg color and its child are float left - parent div lose its bg color 
+>> for show parent div  bg color use parent div { overflow: hidden }
+>> or use this code 
+  .clearfix:after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+>> clear use korle div er sese after add hoye jay : https://prnt.sc/1965oig
+>> jodi parent div er height thake, tahole oi height show hobe, 
+>> r jodi child er height parent height hoy, tahole bg lose problem hobe , then use clarfix 
+
+
+css variable 
+-----------------------
+>> css e variable add system 
+:root {
+    --bg-color: red;
+    --font-color: black;
+    --font-family: "arial";
+}
+>> apply 
+div {
+    background: var(--bg-color);
+}
