@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Clearfix Hack </title>
+    <link rel="stylesheet" href="practice.css">
+
+    <style>
+
+        body {
+            color: white;
+        }
+        div {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 10px solid red;
+        }
+        img {
+            width: auto;
+            height: 250px;
+        }
+        .img1 {
+            float: right;
+        }
+        
+        .img2 {
+            float: right;
+        }
+        .cleartight::after {
+            content: "";
+            display: block;
+            clear: right;
+        }
+       
+        .clearboth::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+    </style>
+    
+</head>
+<body>
+    
+
+<div class="cleartight">
+    <img class="img1" src="https://www.publicdomainpictures.net/pictures/30000/velka/beauty-of-nature-9.jpg" alt="">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, error!
+</div>
+
+
+<div class="clearboth">
+    <img class="img2" src="https://www.publicdomainpictures.net/pictures/30000/velka/beauty-of-nature-9.jpg" alt="">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, error!
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

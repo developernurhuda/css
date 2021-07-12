@@ -123,6 +123,12 @@ relative dile je gap hoy, se gap onno kono element puron korena.
 >> specificity 
 >> important 
 
+>>> image center 
+img {
+    display: block;
+    margin: auto;
+}
+
 Advanced 
 ====================
 >> round corner 
