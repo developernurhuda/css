@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #34495e;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .main-div::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        .leftdiv {
+            width: 20%;
+            float: left;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background: red;
+            padding: 10px;
+        }
+        .rightdiv {
+            float: left;
+            width: 80%;
+            height:100%;
+            background-color: greenyellow;
+            padding: 10px;
+            position: absolute;
+            left: 20%;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="main-div">
+        <div class="leftdiv">
+            <h1> Heading One for left sidebar </h1>
+        </div>
+        <div class="rightdiv">
+            <h1> Heading One for right sidebar </h1>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
