@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Unequal Columns </title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+            /* background-color: red; */
+            padding: 60px;
+        }
+
+        .container::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        .float-left {
+            float: left;
+            padding: 10px;
+            /* border: 1px solid #ddd; */
+            height: 250px;
+            text-align: center;
+            margin: 5px;
+            box-shadow: 1px 0px 10px #ddd;
+        }
+
+        .w-25 {
+            width: 25%;
+        }
+
+        .w-50 {
+            width: 47%;
+        }
+
+        @media screen and (max-width: 600px) {
+
+            .w-25,
+            .w-50 {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="float-left w-25">
+            <h2> Left Side Bar </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, voluptatibus illo ex rerum accusantium hic
+                quod facilis labore voluptates corrupti expedita. Itaque quam magni neque temporibus earum amet pariatur
+                repellat?</p>
+        </div>
+
+        <div class="middle float-left w-50">
+            <h2> Middle </h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore expedita, pariatur consequuntur
+                adipisci veritatis odit minima reprehenderit laborum sed porro eligendi deserunt possimus nisi atque
+                architecto voluptates quasi numquam libero?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta dolorum hic quia minus, suscipit, saepe
+                ut aspernatur corporis fuga distinctio, error veritatis ea similique fugit enim debitis omnis dolor
+                eligendi.</p>
+        </div>
+        <div class="float-left w-25">
+            <h2> Right Side Bar </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa sint, quod quae nisi sunt iure. Amet, at
+                consequatur! Debitis, eveniet. Sunt cum veniam debitis quos harum ducimus adipisci temporibus
+                voluptatem.</p>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

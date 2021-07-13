@@ -71,7 +71,8 @@ body {
 - shorthand:   list-style: square inside url("sqpurple.gif");
 
 
->> table 
+table 
+====================================
 - border 
 - width 100% 
 - border-collapse 
@@ -88,7 +89,8 @@ body {
 >>> max width - all time use max width
 
 
->>> position
+Position
+================================
 > static == kono position na dileo default vabe ai position thakbe, left right bottom top kaj korena ai position e 
 > Relative == left right top bottom kaj korbe , ai value dile relative div tar jayga theke sore jabe, kintu keo tar jaygay aste parbena, প্রধান শিক্ষক যদি তার চেয়ার থেকে সরে যায়, চেয়ার খালি থাকবে, কিন্তু কেউ ওই চেয়ারে বসতে পারবেনা। relative e px kaj kore, but top/bottom e % kaj korena, left/right e kaj kore. 
 relative dile je gap hoy, se gap onno kono element puron korena. 
@@ -99,9 +101,6 @@ relative dile je gap hoy, se gap onno kono element puron korena.
 >>> z-index: 1st div sobar niche thakebe, then 2nd div then 3rd div in top 
 - jar value besi se sobar top e thakbe 
 - use positive value(1-1000), negative value(-1)
-
-
-
 
 >> overflow
 >> float 
@@ -115,10 +114,41 @@ relative dile je gap hoy, se gap onno kono element puron korena.
 >> dropdowns 
 >> image gallery 
 >> image sprites 
->> attr selector 
->> forms 
+>> attr selector - ok 
+
+forms 
+====================================
+- width - 100%
+- input[type="text"] { add vlaue }
+- input[type="text"]:focus { value add }
+
+
 >> counters 
->> webstie layout 
+
+Webstie layout - ok 
+===========================================
+- float hole parent ke must be clearfix korte hobe 
+- sidbar and middle content width select with different px 
+
+Basic layout design 
+========================================== 
+- container div 
+-- column div 
+--- width div 
+----- div for content parent or add new class in width div 
+---- add content in column 
+- use float 
+- add clear with clearfix 
+- chain of css - .header h1 { color : white}
+- je div default 100% thake, take 100% dite hbena
+global css---------
+- w-25 : 25%;
+- w-100 : 100%;
+- w-50 : 50%; 
+
+
+
+
 >> units 
 >> specificity 
 >> important 
